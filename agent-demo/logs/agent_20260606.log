@@ -1,0 +1,19 @@
+2026-06-06 09:51:03,060 - agent - INFO - logger_handler.py:56 - 信息日志
+2026-06-06 09:51:03,060 - agent - ERROR - logger_handler.py:57 - 错误日志
+2026-06-06 09:51:03,060 - agent - WARNING - logger_handler.py:58 - 警告日志
+2026-06-06 09:51:03,060 - agent - DEBUG - logger_handler.py:59 - 调试日志
+2026-06-06 15:34:12,829 - agent - INFO - vector_store.py:91 - [加载知识库]C:\Codefield\llm-demo\agent-demo\data\扫地机器人100问.pdf内容已经存在知识库内，跳过
+2026-06-06 15:34:12,832 - agent - INFO - vector_store.py:91 - [加载知识库]C:\Codefield\llm-demo\agent-demo\data\扫地机器人100问2.txt内容已经存在知识库内，跳过
+2026-06-06 15:34:12,833 - agent - INFO - vector_store.py:91 - [加载知识库]C:\Codefield\llm-demo\agent-demo\data\扫拖一体机器人100问.txt内容已经存在知识库内，跳过
+2026-06-06 15:34:12,835 - agent - INFO - vector_store.py:91 - [加载知识库]C:\Codefield\llm-demo\agent-demo\data\故障排除.txt内容已经存在知识库内，跳过
+2026-06-06 15:34:12,836 - agent - INFO - vector_store.py:91 - [加载知识库]C:\Codefield\llm-demo\agent-demo\data\维护保养.txt内容已经存在知识库内，跳过
+2026-06-06 15:34:12,837 - agent - INFO - vector_store.py:91 - [加载知识库]C:\Codefield\llm-demo\agent-demo\data\选购指南.txt内容已经存在知识库内，跳过
+2026-06-06 15:54:06,776 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-06 15:54:06,777 - agent - DEBUG - middleware.py:45 - [log_before_model]HumanMessage | 你是谁
+2026-06-06 15:54:34,218 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-06 15:54:34,219 - agent - DEBUG - middleware.py:45 - [log_before_model]HumanMessage | 我的扫地机器人不工作了，应该怎么办
+2026-06-06 15:54:36,343 - agent - INFO - middleware.py:22 - [tool monitor]执行工具：rag_summarize
+2026-06-06 15:54:36,348 - agent - INFO - middleware.py:23 - [tool monitor]传入参数：{'query': '扫地机器人不工作 故障排查'}
+2026-06-06 15:54:40,533 - agent - INFO - middleware.py:27 - [tool monitor]工具rag_summarize调用成功
+2026-06-06 15:54:41,627 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-06 15:54:41,628 - agent - DEBUG - middleware.py:45 - [log_before_model]ToolMessage | 扫地机器人不工作时，可按以下步骤排查故障：检查电源是否接通、电池是否电量不足；确认开关是否开启；查看是否有异物卡住轮子或刷子；清理传感器上的灰尘或污垢；重启设备尝试恢复；若仍无效，参考说明书或联系售后。
